@@ -8,6 +8,8 @@ A collection OCR A-Level (H446) algorithms (2.3.1 on the [specification](https:/
 
 ## Current data structures:
 - Hash Tables (insert, remove, search)
+- Stacks (push, pop, peek)
+- Queues (enqueue, dequeue, peek)
 
 ## Planned algorithms:
 - Pathfinding Algorithms (Dijkstra's shortest path, A\*) *These do not need to be coded, just followed through*
@@ -15,6 +17,4 @@ A collection OCR A-Level (H446) algorithms (2.3.1 on the [specification](https:/
 ## Planned data structures:
 - Trees (depth-first, breadth-first)
 - Binary Search Trees (preorder, postorder, inorder, insert, remove)
-- Stacks (push, pop, peek)
-- Queues (enqueue, dequeue, peek)
 - Linked list (add, delete, traverse)
