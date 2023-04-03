@@ -5,10 +5,12 @@ A collection OCR A-Level (H446) algorithms (2.3.1 on the [specification](https:/
 ## Current algorithms:
 - Search Algorithms (linear, binary)
 - Sorting Algorithms (bubble, insertion, merge, quick)
-- Pathfinding Algorithms (Dijkstra's shortest path, A\*) *These do not need to be coded, just followed through*
 
 ## Current data structures:
 - Hash Tables (insert, remove, search)
+
+## Planned algorithms:
+- Pathfinding Algorithms (Dijkstra's shortest path, A\*) *These do not need to be coded, just followed through*
 
 ## Planned data structures:
 - Trees (depth-first, breadth-first)
