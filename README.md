@@ -2,20 +2,9 @@
 
 A collection OCR A-Level (H446) algorithms (2.3.1 on the [specification](https://www.ocr.org.uk/Images/170844-specification-accredited-a-level-gce-computer-science-h446.pdf)) in Python and JS. 
 
-## Current algorithms:
-- Search Algorithms (linear, binary)
-- Sorting Algorithms (bubble, insertion, merge, quick)
-- Pathfinding Algorithms (Dijkstra's Pathfinding Algorithm) *These do not need to be coded, just followed through*
-
-## Current data structures:
-- Hash Tables (insert, remove, search)
-- Stacks (push, pop, peek)
-- Queues (enqueue, dequeue, peek)
-
-## Planned algorithms:
-- Pathfinding Algorithms (A\*) *These do not need to be coded, just followed through*
-
-## Planned data structures:
-- Trees (depth-first, breadth-first)
-- Binary Search Trees (preorder, postorder, inorder, insert, remove)
-- Linked list (add, delete, traverse)
+|                         	| Python                                                                                                                                                                                                          	| JS                                                                                                                                                                                                                  	|
+|-------------------------	|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
+| Current Algorithms      	| Search Algorithms (linear, binary)<br>Sorting Algorithms (bubble, insertion, merge, quick)<br>Pathfinding Algorithms (Dijkstra's Pathfinding Algorithm) *These do not need to be coded, just followed through*  	|                                                                                                                                                                                                                     	|
+| Current Data Structures 	| Hash Tables (insert, remove, search) <br>Stacks (push, pop, peek)<br>Queues (enqueue, dequeue, peek)                                                                                                            	| Hash Tables (insert, search)<br>Queues (enqueue, dequeu, peek)                                                                                                                                                      	|
+| Planned Algorithms      	| Pathfinding Algorithms (A\*) *These do not need to be coded, just followed through*                                                                                                                             	| Search Algorithms (linear, binary)<br>Sorting Algorithms (bubble, insertion, merge, quick)<br>Pathfinding Algorithms (Dijkstra's Pathfinding Algorithm, A\*) *These do not need to be coded, just followed through* 	|
+| Planned Data Structures 	| Trees (depth-first, breadth-first)<br>Binary Search Trees (preorder, inorder, postorder, insert, remove)<br>Linked List (add, delete, traverse)                                                                 	| Hash Tables (remove)<br>Stacks (push, pop, peek)<br>Trees (depth-first, breadth-first)<br>Binary Search Trees (preorder, inorder, postorder, insert, remove)<br>Linked List (add, delete, traverse)                 	|
