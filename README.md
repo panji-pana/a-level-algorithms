@@ -1,6 +1,6 @@
 # a-level-algorithms
 
-A collection OCR A-Level (H446) algorithms (2.3.1 on the [specification](https://www.ocr.org.uk/Images/170844-specification-accredited-a-level-gce-computer-science-h446.pdf)) in Python. 
+A collection OCR A-Level (H446) algorithms (2.3.1 on the [specification](https://www.ocr.org.uk/Images/170844-specification-accredited-a-level-gce-computer-science-h446.pdf)) in Python and JS. 
 
 ## Current algorithms:
 - Search Algorithms (linear, binary)
