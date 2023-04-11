@@ -1,43 +1,7 @@
+from weighted_graph import Graph
+
 global infinity
 infinity = float('inf')
-
-
-class Node:
-    def __init__(self,  node: str) -> None:
-        self.node = node
-        self.visited = False
-        self.distance = infinity
-        self.previous = None
-        self.children = []
-
-
-class Child:
-    def __init__(self, data: str, weight: int) -> None:
-        self.node = data
-        self.weight = weight
-
-
-class Graph(Node, Child):
-    """
-    This class includes the modules needed to create and fill
-    a weighted graph easily
-    """
-    
-    def __init__(self) -> None:
-        self.graph = {}
-        
-    def create_graph(self, *nodes: str) -> None:
-        """Add all nodes to graph"""
-        for node in nodes:
-            self.graph[node] = Node(node)
-            
-        
-    def add_children(self, parent: str, *children: list[str,int]) -> None:
-        """Add all the children of the node (parent) of the graph"""
-        for child in children:
-            child_class = Child(child[0],child[1])
-            self.graph[parent].children.append(child_class)
-
 
 class Dijkstra(Graph):
     """
@@ -97,3 +61,19 @@ class Dijkstra(Graph):
         # Output the list    
         return path
     
+
+if __name__ == "__main__":
+    import dijkstra as d
+    dijkstra = d.Dijkstra()
+
+    dijkstra.create_graph('A','B','C','D','E','x')
+
+    dijkstra.add_children('A',['B',10],['C',7])
+    dijkstra.add_children('B',['A',10],['E',4],['D',4])
+    dijkstra.add_children('C',['A',7],['E',3])
+    dijkstra.add_children('D',['B',4],['x',1])
+    dijkstra.add_children('E',['B',4],['C',3],['x',6])
+    dijkstra.add_children('x',['D',1],['E',6])
+
+    path = dijkstra.traverse('A','x')
+    print(path)
